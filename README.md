@@ -338,6 +338,9 @@ Automated checks cover only part of accessibility. Combine them with keyboard te
 - [Unlighthouse](https://github.com/harlan-zw/unlighthouse) - Crawls a whole site and runs Lighthouse on every page, with a UI for comparing accessibility and other scores across routes; also runs in CI. Open source (MIT).
 - [ux-ui-audit](https://github.com/uxbyissa/ux-ui-audit) - Browser probes that measure WCAG contrast, tap targets and focus-ring contrast, plus an Arabic/RTL engine for plural agreement, bidi hazards and letter-spacing on cursive script. Open source (MIT).
 - [wcag-contrast-ci](https://github.com/johnsmithCA-sta/wcag-contrast-ci) - Zero-dependency Python CLI that batch-checks color pairs against WCAG AA/AAA (normal, large, and UI-component tiers) and audits CSS token hygiene - variable definition/usage counts, hardcoded color values, and dead token detection. Exits non-zero on failure so it can gate a CI pipeline directly.
+- [AccessLens](https://a7ba2c9f8e51600b668cfcbbb6ecb648.ctonew.app) - Runs the axe-core WCAG 2.2 A/AA rules in a headless browser against one pasted URL and returns a plain-English report grouped by severity, with the success criterion, a markup fix and sample offending elements for each issue. The scan is free and needs no account; a $19 one-off adds the complete element-by-element list and a report link that does not expire.
+
+
 
 ### Linters and static analysis
 
