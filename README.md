@@ -317,6 +317,7 @@ Automated checks cover only part of accessibility. Combine them with keyboard te
 ### Testing engines and CI
 
 - [Accessibility Insights Scan](https://www.npmjs.com/package/accessibility-insights-scan) - Microsoft's command-line scanner for one URL, a list of URLs or a crawled site, with an HTML report. Open source (MIT).
+- [AccessLens](https://a7ba2c9f8e51600b668cfcbbb6ecb648.ctonew.app) - Runs the axe-core WCAG 2.2 A/AA rules in a headless browser against one pasted URL and returns a plain-English report grouped by severity, with the success criterion, a markup fix and sample offending elements for each issue. The scan is free and needs no account; a $19 one-off adds the complete element-by-element list and a report link that does not expire.
 - [Alfa](https://alfa.siteimprove.com) - Siteimprove's accessibility engine built on W3C ACT rules, with integrations for Playwright, Puppeteer, Cypress and Jest. Open source (MIT).
 - [axe-core](https://github.com/dequelabs/axe-core) - Accessibility rules engine from Deque that tests against WCAG 2.0 to 2.2 and best practices, designed to avoid false positives; most automated checkers on this list build on it. Open source (MPL-2.0).
 - [axe-core-npm](https://github.com/dequelabs/axe-core-npm) - Deque's packages for running axe-core in Playwright, Puppeteer, WebdriverIO and WebDriverJS tests, plus the @axe-core/cli scanner. Open source (MPL-2.0).
@@ -338,9 +339,6 @@ Automated checks cover only part of accessibility. Combine them with keyboard te
 - [Unlighthouse](https://github.com/harlan-zw/unlighthouse) - Crawls a whole site and runs Lighthouse on every page, with a UI for comparing accessibility and other scores across routes; also runs in CI. Open source (MIT).
 - [ux-ui-audit](https://github.com/uxbyissa/ux-ui-audit) - Browser probes that measure WCAG contrast, tap targets and focus-ring contrast, plus an Arabic/RTL engine for plural agreement, bidi hazards and letter-spacing on cursive script. Open source (MIT).
 - [wcag-contrast-ci](https://github.com/johnsmithCA-sta/wcag-contrast-ci) - Zero-dependency Python CLI that batch-checks color pairs against WCAG AA/AAA (normal, large, and UI-component tiers) and audits CSS token hygiene - variable definition/usage counts, hardcoded color values, and dead token detection. Exits non-zero on failure so it can gate a CI pipeline directly.
-- [AccessLens](https://a7ba2c9f8e51600b668cfcbbb6ecb648.ctonew.app) - Runs the axe-core WCAG 2.2 A/AA rules in a headless browser against one pasted URL and returns a plain-English report grouped by severity, with the success criterion, a markup fix and sample offending elements for each issue. The scan is free and needs no account; a $19 one-off adds the complete element-by-element list and a report link that does not expire.
-
-
 
 ### Linters and static analysis
 
